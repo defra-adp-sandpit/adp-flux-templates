@@ -7,6 +7,6 @@ metadata:
     backstage.io/kubernetes-id: __SERVICE_NAME__
     backstage.io/kubernetes-team: __TEAM_NAME__
 spec:
-  image: ${APPLICATION_ACR_NAME}.azurecr.io/image/__SERVICE_NAME__
+  image: ${APPLICATION_ACR_NAME}.azurecr.io/image/fcp-jkr-demo-backend-node-1
   interval: 60m0s
   provider: azure
