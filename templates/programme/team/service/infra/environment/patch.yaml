@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: __SERVICE_NAME__-infra
+      chart: fcp-jkr-demo-backend-node-1-infra
       version: __VERSION_TAG__
   values:
     namespace: ${TEAM_NAMESPACE}
