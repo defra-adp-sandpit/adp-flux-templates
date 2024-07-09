@@ -10,7 +10,7 @@ spec:
   releaseName: __SERVICE_NAME__-infra
   chart:
     spec:
-      chart: __SERVICE_NAME__-infra
+      chart: fcp-jkr-demo-backend-node-1-infra
       version: "0.1.0"
       reconcileStrategy: ChartVersion
       sourceRef:
